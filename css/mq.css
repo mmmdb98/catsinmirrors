@@ -1,0 +1,75 @@
+@media screen and (max-width: 1024px) {
+
+    .nav-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-flex-rev {
+        flex-direction: column-reverse;
+    }
+    
+    .header-left {
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-left p {
+        margin: 12px 0;
+    }
+
+    .header-right {
+        width: 100%;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .header-img {
+        width: 50%;
+    }
+
+    .subscribe-container {
+        flex-direction: column;
+    }
+
+    .subscribe-container .input {
+        margin-right: 0%;
+        margin-bottom: 16px;
+    } 
+    
+    #card-container{
+        flex-direction: column;
+    }
+
+    .app-promo {
+        flex-direction: column;
+    }
+
+    .promo-left{
+        width: 100%;    
+    }
+
+    .promo-right {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .promo-btn .btn {
+        width: 100%;
+    }
+
+    .heading-one {
+        font-size: 32px;
+    }
+
+    .heading-two { 
+        font-size: 30px;
+    }
+
+    .heading-three {
+        font-size: 26px;
+    }
+}
